@@ -37,19 +37,21 @@ section, .vantagen, .contato, .sobre {
 }
 
 .quem-somos {
+  background-color: white;
+  color: #000;
   display: flex;
   flex-direction: column;
   gap: 14px;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  border: solid 2px #f0a500;
+  border: solid 2px #9b751c;
   border-radius: 5px;
   width: 100vh;
 }
 
 .dourado {
-  color: #f0a500;
+  color: #9b751c;
 }
 
 .sobre {
@@ -58,20 +60,22 @@ section, .vantagen, .contato, .sobre {
   align-items: center;
   gap: 50px;
   & .eiffel {
-    background-image: url('eiffel.jpeg');
+    background-image: url('./img/eiffel.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     max-width: 1000px;
     padding-top: 56.25%;
-    border: solid 2px #f0a500;
+    border: solid 2px #9b751c;
     border-radius: 5px;
   }
 
 }
 
 .va-nt {
+  background-color: white;
+  color: #000;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -80,7 +84,7 @@ section, .vantagen, .contato, .sobre {
   padding: 1rem 2rem;
   border-radius: 5px;
   width: 50%;
-  border: solid 2px #f0a500;
+  border: solid 2px #9b751c;
 }
 
 .vantagen {
@@ -124,12 +128,12 @@ nav a::after {
   bottom: -5px;
   width: 0;
   height: 2px;
-  background-color: #f0a500;
+  background-color: #9b751c;
   transition: width 0.3s ease;
 }
 
 nav a:hover {
-  color: #f0a500;
+  color: #9b751c;
   transform: scale(1.05);
 }
 
@@ -138,7 +142,7 @@ nav a:hover::after {
 }
 
 .hero {
-  background: url('img-komt1.jpeg') center/cover no-repeat;
+  background: url('./img/img-komt1.jpeg') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -153,7 +157,7 @@ nav a:hover::after {
   margin-top: -100px;
   font-size: 2.5rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  background-color: #f0a500;
+  background-color: #9b751c;
   border-radius: 5px;
   padding: 0 20px;
 }
@@ -161,7 +165,7 @@ nav a:hover::after {
 .hero-text p {
   margin-top: 30px;
   font-size: 1.5rem;
-  color: #f0a500;
+  color: #9b751c;
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
@@ -173,7 +177,7 @@ nav a:hover::after {
   margin-top: 80px;
   font-size: 1.5rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  background-color: #f0a500;
+  background-color: #9b751c;
   border-radius: 5px;
   text-align: center;
   padding: 0 auto;
@@ -232,22 +236,22 @@ nav a:hover::after {
   margin-top: 1rem;
 }
 #eng {
-  background-image: url('inversor4.jpeg');
+  background-image: url(./img/inversor4.jpeg);
   background-size: cover;
 }
 
 #ele {
-  background-image: url('projeto1.jpeg');
+  background-image: url(./img/projeto1.jpeg);
   background-size: cover;
 }
 
 #fot {
-  background-image: url('img-fundo.jpeg');
+  background-image: url(./img/img-fundo.jpeg);
   background-size: cover;
 }
 
 #lau {
-  background-image: url('termo1.jpeg');
+  background-image: url(./img/termo1.jpeg);
   background-size: cover;
 }
 
@@ -261,7 +265,7 @@ nav a:hover::after {
 
 .service-list {
   font-family: 'orbitron', sans-serif;
-  color: #ffe100;
+  color: #9b751c;
   text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
   font-weight: 600;
   letter-spacing: 2px;
@@ -297,7 +301,7 @@ nav a:hover::after {
 
 .availability .btn {
   margin-top: 1rem;
-  background: #f0a500;
+  background: #9b751c;
   color: #000;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
@@ -520,7 +524,7 @@ footer {
   align-items: start;
   padding: 1rem 2rem;
   font-size: 0.2rem;
-  border: solid 2px #f0a500;
+  border: solid 2px #9b751c;
   
 }
 
@@ -545,11 +549,11 @@ bottom: 0;
   transition: 0.8s;
 }
 
-
+/* Mudando a cor d icone quando passar o mouse */
 .social-icons a:hover {
   transform: scale(1.2);
   text-decoration: underline;
-  color: #f0a500;
+  color: #9b751c;
 }
 
 .fa-instagram:hover {
@@ -714,7 +718,7 @@ color: #E4405F;
 
   .stylists .btn {
     margin-top: 1rem;
-    background: #f0a500;
+    background: #9b751c;
     color: #000;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
@@ -723,7 +727,7 @@ color: #E4405F;
 
    .services .btn {
     margin-top: 1rem;
-    background: #f0a500;
+    background: #9b751c;
     color: #000;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
@@ -739,7 +743,7 @@ color: #E4405F;
     margin: 58px 0;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(255, 211, 122, 0.5);
-    text-decoration: underline #f0a500;
+    text-decoration: underline #9b751c;
     letter-spacing: 3px;
   }
 
@@ -749,7 +753,7 @@ color: #E4405F;
     margin-top: 100px;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(255, 211, 122, 0.5);
-    text-decoration: underline #f0a500;
+    text-decoration: underline #9b751c;
     letter-spacing: 3px;
   }
 
@@ -760,7 +764,7 @@ color: #E4405F;
     margin-bottom: 10PX;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(255, 211, 122, 0.5);
-    text-decoration: underline #f0a500;
+    text-decoration: underline #9b751c;
     letter-spacing: 3px;
   }
 
@@ -778,7 +782,7 @@ color: #E4405F;
     .quem-somos {
     display: flex;
     width: 700px;
-    border: solid 2px #f0a500;
+    border: solid 2px #9b751c;
     border-radius: 5px;
 
     }
@@ -786,14 +790,14 @@ color: #E4405F;
   
   @media (max-width:  1000px) {
     .eiffel {
-    background-image: url('eiffel.jpeg');
+    background-image: url('./img/eiffel.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     max-width: 500px;
     padding-top: 56.25%;
-    border: solid 2px #f0a500;
+    border: solid 2px #9b751c;
     border-radius: 5px;
     }
   }
@@ -810,7 +814,7 @@ color: #E4405F;
     .quem-somos {
     display: flex;
     width: 300px;
-    border: solid 2px #f0a500;
+    border: solid 2px #9b751c;
     border-radius: 5px;
 
     }
@@ -818,14 +822,14 @@ color: #E4405F;
   
   @media (max-width: 400px) {
     .eiffel {
-    background-image: url('eiffel.jpeg');
+    background-image: url('./img/eiffel.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     max-width: 500px;
     padding-top: 56.25%;
-    border: solid 2px #f0a500;
+    border: solid 2px #9b751c;
     border-radius: 5px;
     }
   }
@@ -916,7 +920,7 @@ color: #E4405F;
   .va-nt {
   display: flex;
   width: 100%;
-  border: solid 2px #f0a500;
+  border: solid 2px #9b751c;
   border-radius: 5px;
 
   }
@@ -935,7 +939,7 @@ color: #E4405F;
   .va-nt {
   display: flex;
   width: 100%;
-  border: solid 2px #f0a500;
+  border: solid 2px #9b751c;
   border-radius: 5px;
 
   }
