@@ -60,7 +60,7 @@ section, .vantagen, .contato, .sobre {
   align-items: center;
   gap: 50px;
   & .eiffel {
-    background-image: url('./img/eiffel.jpeg');
+    background-image: url('eiffel.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ nav a:hover::after {
 }
 
 .hero {
-  background: url('./img/img-komt1.jpeg') center/cover no-repeat;
+  background: url('img-komt1.jpeg') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -236,22 +236,22 @@ nav a:hover::after {
   margin-top: 1rem;
 }
 #eng {
-  background-image: url(./img/inversor4.jpeg);
+  background-image: url('inversor4.jpeg');
   background-size: cover;
 }
 
 #ele {
-  background-image: url(./img/projeto1.jpeg);
+  background-image: url('projeto1.jpeg');
   background-size: cover;
 }
 
 #fot {
-  background-image: url(./img/img-fundo.jpeg);
+  background-image: url('img-fundo.jpeg');
   background-size: cover;
 }
 
 #lau {
-  background-image: url(./img/termo1.jpeg);
+  background-image: url(termo1.jpeg);
   background-size: cover;
 }
 
@@ -790,7 +790,7 @@ color: #E4405F;
   
   @media (max-width:  1000px) {
     .eiffel {
-    background-image: url('./img/eiffel.jpeg');
+    background-image: url('eiffel.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -822,7 +822,7 @@ color: #E4405F;
   
   @media (max-width: 400px) {
     .eiffel {
-    background-image: url('./img/eiffel.jpeg');
+    background-image: url('eiffel.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
