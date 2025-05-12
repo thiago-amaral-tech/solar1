@@ -502,7 +502,8 @@ footer {
      
    }
    .container img {
-    width: 50px;
+     width: 50px;
+     rigth: 50%;
   }
   .container nav ul {
     font-size: 10px;
