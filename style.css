@@ -307,7 +307,6 @@ nav a:hover::after {
 .stylist img {
   width: 100%;
   max-width: 350px;
-  padding-top: 50.25%;
   border-radius: 10%;
 }
 
