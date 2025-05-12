@@ -1044,9 +1044,3 @@ container {
   top: 30%; 
   right: 29%;
 }
-
-@media (max-width: 1000px) { .icon { 
-  top: 50%; 
-  right: 50%;
-  }
-}
