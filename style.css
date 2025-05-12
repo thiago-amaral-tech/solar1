@@ -490,6 +490,9 @@ footer {
     padding: 0 1rem;
   }
 
+   .container .icon {
+    right: 35%;
+  }
 } 
 
 @media (max-width: 400px) {
@@ -530,6 +533,11 @@ footer {
     top: 150px;
     font-size: 1.0rem;
     padding: 0 1rem;
+  }
+  
+  .container .icon {
+    right: 65%;
+    top: 72%;
   }
   
 }
