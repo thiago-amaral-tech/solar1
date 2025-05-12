@@ -1046,7 +1046,7 @@ container {
 }
 
 @media (max-width: 400px) { .icon { 
-  top: 30%; 
+  top: 50%; 
   right: 50%;
   }
 }
