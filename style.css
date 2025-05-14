@@ -498,14 +498,14 @@ footer {
 @media (max-width: 400px) {
   .container {
     flex-direction: column;
+    align-items: start;
     gap: 0px;
   }
   .container h1 {
-    font-size: 12px;
-     
+    font-size: 20px;
    }
    .container img {
-     width: 50px;
+    width: 100px;
   }
   .container nav ul {
     font-size: 10px;
@@ -536,9 +536,85 @@ footer {
   }
   
   .container .icon {
-    right: 75%;
+    right: 65%;
     top: 72%;
   }
+  
+  
+#ah {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  & img {
+    width: 20%;
+  }
+}
+
+#an {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3%;
+  left: 30%;
+  & img {
+    width: 20%;
+  }
+}
+
+#aq {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 12%;
+  left: 60%;
+  & img {
+    width: 30%;
+  }
+}
+
+#ac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: absolute;
+  top: 3%;
+  left: 85%;
+  & img {
+    width: 70%;
+  }
+}
+
+nav a {
+  color: var(--cbr);
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--cbr);
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: var(sccbr);
+  transform: scale(1.2);
+}
+
+nav a:hover::after {
+  width: 30%;
+}
   
 }
 
@@ -1050,5 +1126,14 @@ container {
 .icon {
   position: absolute;
   top: 30%; 
-  right: 29%;
+  right: 9%;
+
 }
+
+@media (max-width: 400px) { .icon { 
+  display: none;
+  top: 30%; 
+  right: 50%;
+  }
+}
+
