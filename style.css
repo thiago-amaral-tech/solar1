@@ -4,6 +4,7 @@
 /*#8D6F20 font-family:"Meow Script", cursive,*/
 
 * {
+  /*outline: solid 2px red;*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -58,7 +59,7 @@ section, .vantagen, .contato, .sobre {
   padding: 1rem 2rem;
   border: solid 2px var(--cprimary);
   border-radius: 5px;
-  width: 100vh;
+  width: 100%;
 }
 
 .dourado {
@@ -91,10 +92,10 @@ section, .vantagen, .contato, .sobre {
   flex-direction: column;
   gap: 14px;
   justify-content: space-between;
-  align-items: center;
+  align-items: self-start;
   padding: 1rem 2rem;
   border-radius: 5px;
-  width: 50%;
+  width: 100%;
   border: solid 2px var(--cprimary);
   margin-bottom: 20px;
 }
@@ -126,7 +127,7 @@ nav ul {
 }
 
 nav a {
-  color: var(--cbr);
+  color: var(--primary);
   text-decoration: none;
   font-weight: 700;
   position: relative;
@@ -140,12 +141,12 @@ nav a::after {
   bottom: -5px;
   width: 0;
   height: 2px;
-  background-color: var(--cprimary);
+  background-color: var(--primary);
   transition: width 0.3s ease;
 }
 
 nav a:hover {
-  color: var(--cprimary);
+  color: var(sccbr);
   transform: scale(1.05);
 }
 
@@ -301,13 +302,14 @@ nav a:hover::after {
 }
 
 .stylist {
+ 
   text-align: center;
 }
 
 .stylist img {
   width: 100%;
-  padding-top: 50.25%;
   max-width: 350px;
+
   border-radius: 10%;
 }
 
@@ -445,7 +447,7 @@ footer {
 }
  
 
-@media (max-width: 1000px) {
+@media (max-width: 400px) {
   .container {
     flex-direction: row;
     gap: 30px;
@@ -489,23 +491,25 @@ footer {
     font-size: 1.0rem;
     padding: 0 1rem;
   }
-
+  
    .container .icon {
     right: 35%;
   }
+  
+
 } 
 
-@media (max-width: 400px) {
+@media (max-width: 1000px) {
   .container {
     flex-direction: column;
+    align-items: start;
     gap: 0px;
   }
   .container h1 {
-    font-size: 12px;
-     
+    font-size: 20px;
    }
    .container img {
-     width: 50px;
+    width: 100px;
   }
   .container nav ul {
     font-size: 10px;
@@ -536,9 +540,85 @@ footer {
   }
   
   .container .icon {
-    right: 75%;
+    right: 65%;
     top: 72%;
   }
+  
+  
+#ah {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  & img {
+    width: 20%;
+  }
+}
+
+#an {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3%;
+  left: 30%;
+  & img {
+    width: 20%;
+  }
+}
+
+#aq {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 12%;
+  left: 60%;
+  & img {
+    width: 30%;
+  }
+}
+
+#ac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: absolute;
+  top: 3%;
+  left: 85%;
+  & img {
+    width: 70%;
+  }
+}
+
+nav a {
+  color: var(--cbr);
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--cbr);
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: var(sccbr);
+  transform: scale(1.2);
+}
+
+nav a:hover::after {
+  width: 30%;
+}
   
 }
 
@@ -770,7 +850,7 @@ bottom: 0;
   .stylists .btn {
     margin-top: 1rem;
     background: var(--cprimary);
-    color: #000;
+    color: #2d2c2c;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
@@ -1031,7 +1111,7 @@ bottom: 0;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(240, 165, 0, 0.2);
   & img{
-    max-width: 200px;
+    max-width: 250px;
     width: 100%;
   }
   & h3 {
@@ -1050,5 +1130,15 @@ container {
 .icon {
   position: absolute;
   top: 30%; 
-  right: 29%;
+  right: 9%;
+
 }
+
+@media (max-width: 400px) { .icon { 
+  display: none;
+  top: 30%; 
+  right: 50%;
+  }
+}
+
+
