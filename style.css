@@ -247,6 +247,72 @@ nav a:hover::after {
   gap: 1.5rem;
   margin-top: 1rem;
 }
+
+.prevent {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(255, 211, 122, 0.5);
+  text-decoration: underline var(--cprimary);
+  letter-spacing: 3px;
+}
+
+.secao-video {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  /* ou qualquer altura que você quiser */
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.secao-video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.conteudo {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  gap: 14px;
+  z-index: 1;
+  color: white;
+  text-align: center;
+
+}
+
+.conteudo .service {
+  padding: 0;
+  width: 13vw;
+  height: 40vh;
+}
+
+#limpeza1 {
+  background-image: url('limpeza1.jpeg');
+  background-size: cover;
+}
+
+#limpeza2 {
+  background-image: url('limpeza2.jpeg');
+  background-size: cover;
+}
+
+#limpeza3 {
+  background-image: url('limpeza3.jpeg');
+  background-size: cover;
+}
+
+#limpeza4 {
+  background-image: url('limpeza4.jpeg');
+  background-size: cover;
+}
+
 #eng {
   background-image: url('inversor4.jpeg');
   background-size: cover;
@@ -1052,3 +1118,4 @@ container {
   top: 30%; 
   right: 29%;
 }
+
