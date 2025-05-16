@@ -293,6 +293,14 @@ nav a:hover::after {
   height: 40vh;
 }
 
+@media(max-width:400px) { 
+  .conteudo .service {
+  display: none;
+
+}
+
+}
+
 #limpeza1 {
   background-image: url('limpeza1.jpeg');
   background-size: cover;
