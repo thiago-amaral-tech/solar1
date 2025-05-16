@@ -293,7 +293,7 @@ nav a:hover::after {
   height: 40vh;
 }
 
-@media(max-width:400px) { 
+@media(max-width:1000px) { 
   .conteudo .service {
   display: none;
 
