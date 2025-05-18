@@ -260,9 +260,20 @@ nav a:hover::after {
   position: relative;
   width: 100%;
   height: 400px;
-  /* ou qualquer altura que você quiser */
   overflow: hidden;
   margin-top: 20px;
+}
+
+@media(max-width:1000px) { 
+  .secao-video {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
 }
 
 .secao-video video {
