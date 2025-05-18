@@ -268,7 +268,7 @@ nav a:hover::after {
   .secao-video {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     overflow: hidden;
     margin-top: 20px;
 
